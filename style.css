@@ -1,0 +1,154 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins","Sans-serif";
+}
+.main_box
+{
+    
+     /* background-color: black; */
+    width: 100vw;
+    height: 100vh;
+    background: #0a0a2b;
+    background-size: auto;
+    
+}
+.btn_one
+{
+    font-weight: 900;
+    font-size: x-large;
+    position: absolute;
+    left: 10px;
+    top: 19px;
+}
+
+/* .sidebar_menu .logo */
+.logo a
+{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    margin-left: 15px;
+
+}
+.btn_two
+{
+    color: grey;
+    opacity: 1;
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    font-size: x-large;
+}
+.menu i,a{
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+    /* position: absolute; */
+}
+.menu i
+{
+padding: 10px;
+}
+.sidebar_menu
+{
+background-color: rgba(255, 255, 255, 0.1);
+opacity: 0.5;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    left: -400px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+}
+.social_media i
+{
+opacity: 0.5;
+padding: 5px;
+/* position: absolute; */
+/* margin-left: 30px; */
+/* text-align: center; */
+}
+.li1
+{
+    margin-top: 90px;
+    /* box-shadow: 2px 2px 5px black; */
+
+}
+.menu li
+{
+    height: 70px;
+    /* padding: 10px; */
+}
+.sidebar_menu .menu li:hover
+{
+    /* margin-top: 50px; */
+
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+
+}
+.social_media :hover
+{
+opacity: 1;
+scale: 1.05;
+}
+#check
+{
+    display: none;
+}
+#check:checked ~ .sidebar_menu
+{
+    left: 0px;
+}
+.heading h1
+{
+    color: white;
+  padding: 200px 50px 300px 400px;
+
+}
+.heading h2{
+    color: white;
+    padding: 30px 0px 0px 320px;
+}
+.button
+{
+margin-left: 1300px;
+width: 300px;
+
+}
+.btn
+{
+    background-color: yellow;
+    border: solid 1px white;
+    width: 90px;
+    height: 50px;
+    border-radius: 22px;
+}
+
+.btn:hover{
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.main button{
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    background-color: yellow;
+    border: solid 1px white;
+    width: 130px;
+    height: 50px;
+    border-radius: 22px;
+    color: black;
+}
+
+
+.main button:hover{
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
